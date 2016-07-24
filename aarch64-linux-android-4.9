@@ -50,7 +50,7 @@ then
     make $MAKE_FLAGS clean &> /dev/null;
     make $MAKE_FLAGS distclean &> /dev/null;
 fi;
-export UBER_PATH=$DIR/out/aarch64-linux-android-4.9;
+export UBER_PATH=$DIR/out/aarch64-linux-android-4.9-cortex-a53;
 export PREFIX=--prefix=$UBER_PATH;
 if [ -d "$UBER_PATH" ];
 then
